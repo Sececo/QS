@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(19, 154, 199);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+h2{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+#principal{
+    width: 95%;
+    margin: auto;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 0
+}
+
+
+#secundario{
+  font-family: 18px;
+    width: 25%;
+    text-align: right;
+    margin-left: auto;
+}

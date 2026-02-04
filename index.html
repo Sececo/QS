@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calidad de Software</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Hola Mundo!</h1>
+  <h2>Tu número es <spam id="numero"></spam></h2>
+  <div id='principal'>
+      <p><span id="texto"></span></p>
+    
+    <div id='secundario'>
+      <p id='left'>Instrucciones:</p>
+        <ul>
+          <li>Tienes un texto, que puede ser un titulo o una descripción.</li>
+          <li>Leelo y compáralo con los demás textos.</li>
+          <li>Debees encontrar su pareja.</li>
+          <li>cada pareja consta de una descripción y un título.</li>
+          <li>una vez encontrada la pareja, ingresa el numero que verás en el equipo de tu compañero y dile que haga lo mismo, y presiona el botón de "Comprobar pareja" en tu equipo.</li>
+        </ul>
+    </div>
+    
+  </div>
+  <form>
+    <input id="numeroInput" type="number">
+    <label for="numeroInput">Número de pareja:</label>
+    <button type="submit" for='numeroInput' id="comprobar"></button>
+  </form>
+  <script src="scripts.js"></script>
+  
+</body>
+</html>
