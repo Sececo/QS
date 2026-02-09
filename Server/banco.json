@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "tipo": "titulo",
+    "contenido": "Procesos principales en la calidad de software"
+  },
+  {
+    "id": 1,
+    "tipo": "descripcion",
+    "contenido": "Conjunto de actividades que impactan directamente el producto de software. Su objetivo es garantizar funcionalidad, fiabilidad y eficiencia durante todo el ciclo de vida del desarrollo."
+  },
+
+  {
+    "id": 2,
+    "tipo": "titulo",
+    "contenido": "Planificación de la calidad"
+  },
+  {
+    "id": 2,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: definición de estándares, establecimiento de métricas y asignación de recursos. Su objetivo es asegurar que el proyecto cumpla los requisitos de calidad desde su inicio."
+  },
+
+  {
+    "id": 3,
+    "tipo": "titulo",
+    "contenido": "Aseguramiento de la calidad (QA)"
+  },
+  {
+    "id": 3,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: auditorías de procesos, revisión de metodologías y cumplimiento de normas. Su objetivo es prevenir defectos mejorando continuamente el proceso de desarrollo."
+  },
+
+  {
+    "id": 4,
+    "tipo": "titulo",
+    "contenido": "Control de calidad (QC)"
+  },
+  {
+    "id": 4,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: diseño de pruebas, ejecución de pruebas y reporte de errores. Su objetivo es detectar fallos en el producto antes de su liberación."
+  },
+
+  {
+    "id": 5,
+    "tipo": "titulo",
+    "contenido": "Pruebas de software"
+  },
+  {
+    "id": 5,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: pruebas funcionales, pruebas de regresión y validación del sistema. Su objetivo es verificar que el software cumpla los requisitos definidos."
+  },
+
+  {
+    "id": 6,
+    "tipo": "titulo",
+    "contenido": "Gestión de defectos"
+  },
+  {
+    "id": 6,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: identificación, registro, seguimiento y cierre de errores. Su objetivo es asegurar la corrección efectiva de fallos detectados."
+  },
+
+  {
+    "id": 7,
+    "tipo": "titulo",
+    "contenido": "Mejora continua"
+  },
+  {
+    "id": 7,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: análisis de resultados, métricas de desempeño y auditorías. Su objetivo es optimizar los procesos y aumentar la calidad del software."
+  },
+
+  {
+    "id": 8,
+    "tipo": "titulo",
+    "contenido": "Procesos de apoyo"
+  },
+  {
+    "id": 8,
+    "tipo": "descripcion",
+    "contenido": "Actividades que respaldan el desarrollo del software. Su objetivo es facilitar la eficiencia operativa y el correcto funcionamiento de los procesos principales."
+  },
+
+  {
+    "id": 9,
+    "tipo": "titulo",
+    "contenido": "Gestión documental"
+  },
+  {
+    "id": 9,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: identificación, control de cambios, archivo y acceso a documentos. Su objetivo es asegurar la trazabilidad y control de la información."
+  },
+
+  {
+    "id": 10,
+    "tipo": "titulo",
+    "contenido": "Gestión de recursos humanos"
+  },
+  {
+    "id": 10,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: selección, capacitación y evaluación del personal. Su objetivo es garantizar un equipo competente y alineado con los objetivos de calidad."
+  },
+
+  {
+    "id": 11,
+    "tipo": "titulo",
+    "contenido": "Gestión de la infraestructura"
+  },
+  {
+    "id": 11,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: mantenimiento preventivo, gestión de equipos y soporte técnico. Su objetivo es asegurar la disponibilidad y estabilidad de los recursos tecnológicos."
+  },
+
+  {
+    "id": 12,
+    "tipo": "titulo",
+    "contenido": "Gestión de proveedores"
+  },
+  {
+    "id": 12,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: evaluación, selección y seguimiento de proveedores. Su objetivo es garantizar insumos y servicios externos de calidad."
+  },
+
+  {
+    "id": 13,
+    "tipo": "titulo",
+    "contenido": "Procesos organizativos de calidad"
+  },
+  {
+    "id": 13,
+    "tipo": "descripcion",
+    "contenido": "Subprocesos: definición de estándares, implementación de metodologías y mejora continua. Su objetivo es asegurar la coherencia y eficiencia del sistema de calidad en toda la organización."
+  }
+]
