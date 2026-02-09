@@ -7,30 +7,35 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <h1>Hola Mundo!</h1>
   <h2>Tu número es <span id="numero"></span></h2>
-  <div id='principal'>
-      <p><span id="texto"></span></p>
-    
-    <div id='secundario'>
-      <p id='left'>Instrucciones:</p>
-        <ul>
-          <li>Tienes un texto, que puede ser un titulo o una descripción.</li>
-          <li>Leelo y compáralo con los demás textos.</li>
-          <li>Debes encontrar su pareja.</li>
-          <li>cada pareja consta de una descripción y un título.</li>
-          <li>una vez encontrada la pareja, ingresa el numero que verás en el equipo de tu compañero y dile que haga lo mismo, y presiona el botón de "Comprobar pareja" en tu equipo.</li>
-        </ul>
+
+  <div id="principal">
+
+    <div id="panel-texto">
+      <p id="texto"></p>
     </div>
-    
+
+    <div id="secundario">
+      <p>Instrucciones:</p>
+      <ul>
+        <li>Tienes un texto, que puede ser un título o una descripción.</li>
+        <li>Léelo y compáralo con los demás textos.</li>
+        <li>Debes encontrar su pareja.</li>
+        <li>Cada pareja consta de una descripción y un título.</li>
+        <li>Una vez encontrada la pareja, ingresa el número que verás en el equipo de tu compañero y dile que haga lo mismo, y presiona el botón de "Comprobar pareja".</li>
+      </ul>
+    </div>
+
   </div>
+
   <form>
-    <input id="numeroInput" type="number">
     <label for="numeroInput">Número de pareja:</label>
+    <input id="numeroInput" type="number">
     <button type="button" id="comprobar">Comprobar pareja</button>
   </form>
+
   <script src="scripts.js"></script>
-  
 </body>
 </html>
-
