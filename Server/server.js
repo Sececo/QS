@@ -4,7 +4,9 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-app.use(express.static("../public"));
+const path = require("path");
+app.use(express.static(path.join(__dirname, "../Public")));
+
 
 let textos = JSON.parse(fs.readFileSync("./banco.json"));
 let asignados = [];
@@ -25,7 +27,7 @@ app.get("/asignar-texto", (req, res) => {
   const elegido = disponibles[Math.floor(Math.random() * disponibles.length)];
 
   const estudiante = {
-    numero: Math.floor(Math.random() * 1000),
+    numero: Math.floor(Math.random() * 30),
     texto: elegido
   };
 
